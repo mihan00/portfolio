@@ -50,7 +50,7 @@ int main() {
     updateTamagotchi(&t);
     printf("Faim: %d, Ennui: %d, Fatigue: %d\n", t.faim, t.ennui, t.fatigue);
     if (t.faim >= FAIM_LIMIT || t.ennui >= ENNUI_LIMIT || t.fatigue >= FATIGUE_LIMIT) {
-      printf("your tamagotchi has died bye bella jtm\n");
+      printf("your tamagotchi has died bye\n");
       break;
     }
     printf("1. Feed\n");
