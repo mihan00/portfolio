@@ -46,7 +46,7 @@ sinon le joueur choisit une action parmi ces trois:
 
 &#x09;sleep = le faire dormir pour réduire sa fatigue
 
-pointeurs 
+**pointeurs**
 
 les fonctions qui modifient les stat du tamagotchi (**feedTamagotchi**, **playtWithTamagotchi**, **putTamagotchiToSleep**, **updateTamagotchi**) reçoivent un pointeur vers la structure (**Tamagotchi \*t**) plutôt qu'une copie, cela permet de modifier directement les stat réelles du tamagotchi et non une copie temporaire qui serait perdue a la fin de la fonction
 
