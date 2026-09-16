@@ -20,5 +20,39 @@ down_right = 'dr'
 
 directions = (up_left, up_right, down_left, down_right)
 
+COLOR = 'color'
+X = 'x'
+Y = 'y'
+DIR = 'direction'
 
+
+def main():
+    bext.clear()
+
+    logos = []
+for i in range(number_logos):
+    logos.append({COLOR: random.choice(colors),
+        X : random.randint(1, width -4)
+        Y : random.randint(1, height -4)
+        DIR = random.choice(directions)})
+
+    if logos[-1] [X] % 2 == 1:
+        logos[-1][X] -= 1
+
+
+cornerBounces = 0
+while True: 
+    for logo in logos:
+        bext.goto(logo[X], logo[Y])
+        print ('  ', end= '')
+
+        originalDirection = logo[DIR]
+
+        if logo[X] == 0 and logo[Y] == 0
+        logo[DIR] = down_right
+        cornerBounces += 1
+
+        elif logo[X] == 0 and logo [Y] == height -1:
+            logo[DIR] = up_right
+        cornerBounces += 1
 
