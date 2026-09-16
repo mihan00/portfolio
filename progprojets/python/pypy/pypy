@@ -1,0 +1,16 @@
+print("caca")
+livre = 'saucisse'
+print(livre)
+
+nom = 'okari'
+prenom = 'prout'
+age = 8
+
+print(f'bonjour je m\'appelle {prenom} {nom} et j\'ai {age} ans')
+
+nom = 'pipi'
+age = 25
+taille = 1,78
+est_etudiant = True
+print(f'je m\'appelle {nom} j\'ai {age} je mesure {taille} 
+      
