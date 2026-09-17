@@ -4,7 +4,7 @@
 
 j'ai fait ce projet en 2022 repris et documenté en 2026 dans le cadre d'une reprise de l'apprentissage de la programmation.
 
-ce projet est une simulation simplifiée de Tamagotchi en langage C, jouable directement dans le terminal, le joueur doit s'occuper d'une petite créature virtuelle en gérant 3 statistique (faim, ennui, fatigue) avant qu'elles n'atteignent un seuil critique et que le tamagotchi <<meurt>>
+ce projet est une simulation simplifiée de Tamagotchi en langage C, jouable directement dans le terminal, le joueur doit s'occuper d'une petite créature virtuelle en gérant 3 statistique (faim, ennui, fatigue) avant qu'elles n'atteignent un seuil critique et que le tamagotchi meurt
 
 Je m'étais aidé de livres, de projets sur GitHub et reddit, des amis m'avait aidé également
 
