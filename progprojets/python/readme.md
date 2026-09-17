@@ -2,7 +2,7 @@
 
 
 
-ce projet est une recréation en python du logo DVD qui se déplacent en diagonale en rebondissant sur les bords de l'écran, il doit également changer de couleur
+ce projet est une recréation en python du logo DVD qui se déplace en diagonale en rebondissant sur les bords de l'écran, il doit également changer de couleur
 
 le programme s'exécute directement dans la console grâce au  module **bext** qui permet de contrôler l'affichage dans le terminal
 
